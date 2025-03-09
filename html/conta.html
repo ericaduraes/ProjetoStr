@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conta </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/favis.png">
+
+
+        <!-- INICIO NAVEGACAO navbar -->
+        <div class="navbar"> 
+          <div class="logo">
+          <a href="index.html" title="">
+           <img src="assets/img/logo.png" alt="Erarich Stationery" width="125px"></a>
+         </div>
+             <!-- INICIO MENU NAVEGACAO -->
+             <nav>
+               <ul id="menuitens">
+                 <li> <a href="index.html" tittle=""> Home </a></li>
+                 <li> <a href="produtos.html" tittle=""> Produtos </a></li>
+                 <li> <a href="planners.html" tittle=""> Planners </a></li>
+                 <li> <a href="cadernos.html" tittle=""> Cadernos </a></li>
+                 <li> <a href="blocos.html" tittle=""> Blocos </a></li>
+                 <li> <a href="colecoes.html" tittle=""> Coleções </a></li>
+                 <li> <a href="promocoes.html" tittle=""> Promoções </a></li>
+               </ul>
+             </nav>
+           <!-- FIM MENU NAVEGACAO -->
+     
+
+           <div class="icones">
+           <a href="conta.html" alt="">
+           <img src="assets/img/conta.svg" alt="Conta" width="30px" height="30px"></a>
+
+           <a href="buscador.html" alt="">
+           <img src="assets/img/buscador.svg" alt="Buscador" width="30px" height="30px"></a>
+
+           <a href="carrinho.html" alt="">
+           <img src="assets/img/carrinhodecompraspb1.png" alt="Carrinho de Compras" width="32px" height="30px"> </a>      
+           </div>
+           </div>
+           <!-- FIM NAVEGACAO navbar -->  
+
+
+</head>
+<body>
+
+  
+
+  <!-- INICIO CONTAINER -->
+  <div class="container">
+    
+    
+      
+
+        <!-- INICIO BANNER -->
+        <div class="banner">
+      <div class="col-5">
+        <img  width="1585px" height="50px" >
+      </div>
+    
+
+      
+    </div>
+    <!-- FIM CONTAINER -->
+    </div>
+    <!-- FIM BANNER -->
+
+
+
+
+
+    <!-- INICIO DA CONTA DO USUÁRIO -->
+    <div class="minha-conta">
+
+        <!-- INICIO CONTAINER DA CONTA DO USUÁRIO 
+        <div class="container">
+
+           <div class="col-2">
+
+            <img src="assets/img/banner3.png" alt="">
+
+           </div> -->
+
+
+
+           <div class="col-2">
+
+           <div class="formulario">
+
+            <div class="btn-form">
+                <span onclick="Entrar()"> Entrar</span>
+                <span onclick="Cadastro()"> Cadastrar</span>
+                <hr id="Indicador">
+            </div>
+
+             <form action="entrar.php" method="POST" id="EntrarPainel">
+                <input type="email" name="email" id="" placeholder="E-mail de acesso" required>
+                <input type="password" name="senha" id="" placeholder="Digite sua senha" required>
+                <button type="submit" name="senEntrar" class="btn"> Entrar </button>
+                <a href="" title=""> Esqueceu sua senha? </a>
+             </form>
+
+             <form action="cadastrar.php" method="POST" id="CadastroSite">
+                <input type="text" name="nome" id="" placeholder="Nome Completo" required>
+                <input type="email" name="email" id="" placeholder="E-mail" required>
+                <input type="password" name="senha" id="" placeholder="Digite sua senha" required>
+                <button type="submit" name="sendCadastro" class="btn"> Cadastrar </button>
+             </form>
+
+           </div>
+           </div>
+
+
+
+        </div>
+        <!-- FIM CONTAINER DA CONTA DO USUÁRIO -->
+
+
+    </div>
+    <!-- FIM DA CONTA DO USUÁRIO -->
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--RODAPÉ-->
+   <footer class="rodape" width="1585px" height="650px">
+
+     <div class="container">
+      <div class="linha">
+
+         <div class="rodape"> 
+        
+         <div class="logope">
+              <img src="assets/img/logobranco.png" alt="Logomarca" width="200px">
+              
+         </div>
+         <p></p>
+         <h3>© 2025 Erarich Stationery - Todos os Direitos Reservados</h3>
+         <p></p>
+         <br>
+         <h4> Desenvolvido por Erica Durães </h4>
+         <p></p>
+        </div>
+                
+      </div>
+     </div>
+   </footer>
+
+   <!--FIM DO RODAPÉ--> 
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/login.js"></script>
+
+
+</body>
+</html>
