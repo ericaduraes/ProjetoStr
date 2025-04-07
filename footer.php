@@ -33,6 +33,8 @@
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/login.js"></script>
+<script src="assets/js/filtrar.js"></script>
+<script src="assets/js/categorias.js"></script>
 
 
 </body>

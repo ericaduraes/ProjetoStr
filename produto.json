@@ -1,0 +1,20 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"erarich_store"},
+{"type":"table","name":"produto","database":"erarich_store","data":
+[
+{"codigo":"1","nome":"Caderno A5 Terra Cota","categoria":"Caderno Wire-o A5","preco":"80"},
+{"codigo":"2","nome":"Caderno A5 Nude","categoria":"Caderno Wire-o A5","preco":"80"},
+{"codigo":"3","nome":"Caderno A5 Rosa Serena","categoria":"Caderno Wire-o A5 ","preco":"80"},
+{"codigo":"4","nome":"Agenda Rosinhas","categoria":"Agenda","preco":"100"},
+{"codigo":"5","nome":"Combo 3uni Terra Cota","categoria":"Combo","preco":"200"},
+{"codigo":"6","nome":"Caderno Inteligente Floral","categoria":"Caderno Inteligente","preco":"180"},
+{"codigo":"7","nome":"Bloco de Notas Terra Cota","categoria":"Bloco","preco":"50"},
+{"codigo":"8","nome":"Caderno Flowers","categoria":"Caderno Wire-o A5","preco":"80"},
+{"codigo":"9","nome":"Planner Rosinhas","categoria":"Planner","preco":"190"},
+{"codigo":"10","nome":"Caderno Inteligente Rosas","categoria":"Caderno Inteligente","preco":"150"},
+{"codigo":"11","nome":"Combo 2uni Rosas","categoria":"Combo","preco":"130"},
+{"codigo":"12","nome":"Combo 2uni Terra Cota","categoria":"Combo","preco":"130"}
+]
+}
+]

@@ -52,7 +52,7 @@ body{
 .navbar{
     display: flex;
     background-color: #ffffff;
-    position: static;        
+    position: relative;        
     align-items: center;     
     width: 1583px;
     padding-left: 20px;
@@ -186,6 +186,7 @@ p{
 }
 
 .corpo-categorias{
+    padding-top: 100px;
     max-width: 1543px;
     margin: 0;
     padding-left: 0px;
@@ -318,6 +319,10 @@ h4{
 .linha2 select{
     padding: 5px;
     border: 1px solid var(--cor-btn);    
+}
+
+.linha2 select:focus{
+    outline: none;  
 }
 
 .paginacao{
@@ -635,3 +640,89 @@ btn-form{
     transform: translateX(100px);
     transition: transform 1s;
 }
+
+________________________________________________________________________________________________________
+
+.pesquisa form{
+    position: relative;
+    top: 110px;
+    max-width: 300px;
+    padding:  0 20px;
+    transition: transform 0.5s;
+}
+
+.pesquisa form input{
+    width: 260px;
+    height: 40px;
+    margin: 10px 0;
+    padding:  0 10px;
+    border: 1px solid var(--cor-padrao);
+    border-radius: 3px;
+}
+
+.pesquisa form input:focus{
+    outline: none;
+}
+
+
+.pesquisa form .btn{ 
+    width: 260px;
+    height: 40px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: background 0.5s;
+    background-color: var(--cor-padrao);
+    color: var(--cor-btn-hover-fonte);
+    cursor: pointer; 
+}
+
+.pesquisa form .btn:hover{ 
+background: var(--cor-btn-hover-fonte);
+color: var(--cor-btn);
+}
+    
+.pesquisa ul{
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    width: 95%;
+    list-style-type: none;
+    padding-left: 510px;
+    padding-right: 740px;
+    margin: 0;
+    }
+
+.pesquisa li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    color: var(--cor-btn-hover);
+    background: #ffffff;
+    padding: 12px;
+}
+
+.pesquisa li a:hover{
+    background: var(--cor-btn-fonte);
+}
+
+.pesquisa li img{
+    width: 30px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-name{
+margin-left: 15px;
+font-size: 14px;
+}
+
+
