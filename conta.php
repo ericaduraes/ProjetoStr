@@ -1,5 +1,5 @@
 <?php require_once('header.php')?>
-
+<br><br><br>
 
 <!-- INICIO DA CONTA DO USUÁRIO -->
 <div class="minha-conta">
@@ -31,6 +31,7 @@
         <input type="password" name="senha" id="" placeholder="Digite sua senha" required>
         <button type="submit" name="sendCadastro" class="btn"> Cadastrar </button>
      </form>
+    
 
    </div>
    </div>
@@ -39,7 +40,7 @@
 
 </div>
 <!-- FIM CONTAINER DA CONTA DO USUÁRIO -->
-
+ <br><br><br>
 
 </div>
 <!-- FIM DA CONTA DO USUÁRIO -->

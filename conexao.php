@@ -1,4 +1,3 @@
-
 <?php
 
 $user = 'root'; // Nome do Usuário

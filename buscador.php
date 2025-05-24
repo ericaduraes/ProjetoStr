@@ -7,7 +7,7 @@
  <div class="corpo-categorias">
 
  <div class="pesquisa">
-     <form action="buscador.php" method="POST">
+     <form action="listagemproduto.php" method="POST">
         <input type="text" id="inputBusca" onkeyup="filtrar()" type="text" placeholder="Digite Aqui..." required>
         <button type="submit" name="submit" class="btn" id="submitBusca"> Buscar </button>
         <ul id="listaProdutos" >
@@ -188,7 +188,7 @@
 <div class="linha" id="produtosFiltrar">
   
 <div class="col-4">
-    <a href="combo-3uniterracota.html" title="">
+    <a href="combo-3uniterracota.php" title="">
     <img src="assets/img/produto-5.png"  alt="">
     <h4>Combo 3uni Terra Cota</h4>
     <p>R$200,00</p>

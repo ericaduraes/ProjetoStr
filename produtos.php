@@ -67,7 +67,7 @@
 <!--INICIO ITEM PRODUTOS EM DESTAQUE II -->
 <div class="linha">
 <div class="col-4">
-    <a href="combo-3uniterracota.html" title="">
+    <a href="combo-3uniterracota.php" title="">
     <img src="assets/img/produto-5.png"  alt="">
     <h4>Combo 3uni Terra Cota</h4>
     <p>R$200,00</p>

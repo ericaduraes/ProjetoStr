@@ -52,7 +52,7 @@
         <!-- INICIO BANNER -->
         <div class="banner">
       <div class="col-5">
-        <img src="assets/img/banner1.png" alt="Banner de Promoção" width="1583px" height="650px" >
+        <img src="assets/img/banner1.png" alt="Banner de Promoção" width="1583px" height="650px"  >
       </div>
     
 <!--INICIO CATEGORIAS EM DESTAQUE-->
@@ -184,7 +184,7 @@
 
       <!--INICIO ITEM PRODUTOS EM DESTAQUE-->
       <div class="col-4">
-        <a href="combo-3uniterracota.html" title="">
+        <a href="combo-3uniterracota.php" title="">
         <img src="assets/img/produto-5.png"  alt="">
         <h4>Combo 3uni Terra Cota</h4>
         <p>R$200,00</p>
@@ -238,7 +238,7 @@
       <div class="corpo-categorias">
         <div class="linha">
            <div class="col-2">
-             <img src="assets/img/banner2.png" alt="oferta-img" width="1583px" height="650px" >
+             <img src="assets/img/banner2.png" alt="oferta-img" width="1586px" height="650px" >
            </div> <!--tamanho dos banners width="1540px" height="650px"-->
 
         </div>
