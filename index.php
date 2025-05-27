@@ -239,7 +239,7 @@
         <div class="linha">
            <div class="col-2">
              <img src="assets/img/banner2.png" alt="oferta-img" width="1586px" height="650px" >
-           </div> <!--tamanho dos banners width="1540px" height="650px"-->
+           </div> 
 
         </div>
       </div>  

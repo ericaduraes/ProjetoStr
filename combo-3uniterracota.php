@@ -163,7 +163,6 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="assets/js/app.js"></script>
     <script>
-        // JavaScript to update the hidden input with the selected wireo color
         document.getElementById('wireo_color_combo_terracota').addEventListener('change', function() {
             document.getElementById('product_wireo_color_hidden_combo_terracota').value = this.value;
         });

@@ -550,25 +550,28 @@ padding: 20px;
     color: var(--cor-btn-hover-fonte);
 }
 
-.cart-table th:nth-child(1), .cart-table td:nth-child(1) { width: 40%; } /* Product */
-.cart-table th:nth-child(2), .cart-table td:nth-child(2) { width: 15%; text-align: center; } /* Value */
+.cart-table th:nth-child(1), .cart-table td:nth-child(1) { width: 40%; } 
+.cart-table th:nth-child(2), .cart-table td:nth-child(2) { width: 15%; text-align: center; } 
 .cart-table th:nth-child(3), .cart-table td:nth-child(3) {
     width: 20%;
-    text-align: center; /* Ensures quantity input is centered */
+    text-align: center; 
     vertical-align: middle;
-} /* Quantity */
-.cart-table th:nth-child(4), .cart-table td:nth-child(4) { width: 25%; text-align: center; } /* Remove */
+} 
 
 
 
-.cart-produto { /* Added this container to better manage the flex layout */
+.cart-table th:nth-child(4), .cart-table td:nth-child(4) { width: 25%; text-align: center; } 
+
+
+
+.cart-produto { 
     display: flex;
     align-items: center;
     gap: 15px;
     max-width: 100%;
 }
 
-.cart-produto img.produtoimg { /* Corrected image styling */
+.cart-produto img.produtoimg { 
     width: 60px !important;
     height: 60px !important;
     min-width: 60px !important;
@@ -577,7 +580,7 @@ padding: 20px;
     border-radius: 5px;
 }
 
-.cart-produto .info-carrinho { /* Renamed for clarity and adjusted */
+.cart-produto .info-carrinho { 
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 0;
@@ -588,7 +591,7 @@ padding: 20px;
 }
 
 
-.product-qtd { /* Changed class to match the JS and PHP */
+.product-qtd { 
     width: 70px;
     max-width: 100%;
     text-align: center;
@@ -597,7 +600,7 @@ padding: 20px;
     border-radius: 4px;
     box-sizing: border-box;
     display: block;
-    margin: 0 auto; /* Keeps it centered */
+    margin: 0 auto; 
 }
 
 .remove-product-button {
@@ -802,7 +805,7 @@ padding: 20px;
     padding: 20px 0;
     text-align: center;
     width: 300px;
-    height: 400px;
+    min-height: 750px;
     margin: auto;
     background-color: #A63352;
     color: #f1e5d0;
@@ -879,6 +882,27 @@ padding: 20px;
     cursor: pointer;
 }
 
+.btn-delete-account {
+    width: 260px;
+    height: 40px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: background 0.5s;
+    background-color: var(--cor-btn-fonte);
+    color: #A63352;
+    cursor: pointer;
+}
+
+.btn-delete-account:hover {
+    background-color: #c82333;
+    color: #fff;
+}
 
 #EntrarPainel{
     left: -300px;

@@ -49,14 +49,12 @@
                                     'variation' => $product_variation
                                 ];
                             }
-                            // Redirect to prevent re-submission on refresh and show updated cart
                             header('Location: carrinho.php');
                             exit();
                         }
 
                         if (isset($_GET['remove_item'])) {
                             $item_to_remove = urldecode($_GET['remove_item']);
-                            // Ensure variation is correctly passed, even if empty
                             $variation_to_remove = isset($_GET['variation']) ? urldecode($_GET['variation']) : '';
 
                             foreach ($_SESSION['cart'] as $key => $item) {
@@ -65,9 +63,8 @@
                                     break;
                                 }
                             }
-                            $_SESSION['cart'] = array_values($_SESSION['cart']); // Re-index array
+                            $_SESSION['cart'] = array_values($_SESSION['cart']); 
 
-                            // Redirect to prevent re-submission on refresh
                             header('Location: carrinho.php');
                             exit();
                         }

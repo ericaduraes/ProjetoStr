@@ -13,8 +13,7 @@
         <ul id="listaProdutos" >
         <li>
           <a href="caderno-a5terracota.html">
-          <img width="50"
-          src="assets/img/Produto--06.png">
+          <img width="50" src="assets/img/Produto--06.png">
           <span class="item-name"> Caderno A5 Terra Cota</span>
           </a>
         </li>

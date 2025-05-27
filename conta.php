@@ -1,10 +1,8 @@
 <?php require_once('header.php')?>
 <br><br><br>
 
-<!-- INICIO DA CONTA DO USUÁRIO -->
 <div class="minha-conta">
 
-<!--INICIO CONTAINER DA CONTA DO USUÁRIO -->
 <div class="container">
 
 
@@ -21,7 +19,7 @@
      <form action="entrar.php" method="POST" id="EntrarPainel">
         <input type="email" name="email" id="" placeholder="E-mail de acesso" required>
         <input type="password" name="senha" id="" placeholder="Digite sua senha" required>
-        <button type="submit" name="senEntrar" class="btn"> Entrar </button>
+        <button type="submit" name="sendEntrar" class="btn"> Entrar </button>
         <a href="" title=""> Esqueceu sua senha? </a>
      </form>
 
@@ -39,10 +37,7 @@
 
 
 </div>
-<!-- FIM CONTAINER DA CONTA DO USUÁRIO -->
- <br><br><br>
+<br><br><br>
 
 </div>
-<!-- FIM DA CONTA DO USUÁRIO -->
-
 <?php require_once('footer.php')?>

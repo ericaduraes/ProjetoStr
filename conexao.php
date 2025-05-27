@@ -1,8 +1,8 @@
 <?php
 
-$user = 'root'; // Nome do Usuário
-$pass = ''; //Senha
-$dbname = 'erarich_store'; //Nome do banco de dados
+$user = 'root'; 
+$pass = ''; 
+$dbname = 'erarich_store'; 
 $host = 'localhost';
 
 try{
